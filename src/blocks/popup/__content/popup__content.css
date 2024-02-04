@@ -1,0 +1,28 @@
+.popup__content {
+  text-transform: uppercase;
+  border: 2px solid var(--accent-color);
+  font-size: 18px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 430px;
+  width: 100%;
+  background-color: var(--complimentary-color);
+  position: relative;
+  padding: 34px 36px;
+}
+
+.popup__content p {
+  font-weight: 700;
+  text-align: center;
+}
+
+.button_popup {
+  background-color: transparent;
+  inline-size: 100%;
+  padding: 10px;
+  border: 1px solid var(--accent-color);
+}

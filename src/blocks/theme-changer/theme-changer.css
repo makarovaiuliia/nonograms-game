@@ -1,0 +1,28 @@
+.button-theme {
+  cursor: pointer;
+  position: fixed;
+  z-index: 15;
+  inline-size: 30px;
+  block-size: 30px;
+  top: 30px;
+  left: 30px;
+  background-color: transparent;
+  border: 1px solid var(--accent-color);
+  animation: 1.2s slideIn2 ease-in-out forwards 2.2s;
+  transition: background-color 0.5s;
+  opacity: 0;
+}
+
+.button-theme:hover {
+  background-color: var(--accent-color);
+}
+
+.button-theme::after {
+  content: "theme changer";
+  position: absolute;
+  top: 40px;
+  left: -6px;
+  font-size: 10px;
+  animation: 1.2s slideIn2 ease-in-out forwards 2.2s;
+  opacity: 0;
+}

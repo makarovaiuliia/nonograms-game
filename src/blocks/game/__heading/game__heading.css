@@ -1,0 +1,27 @@
+.game__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+
+.game__title {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.game__timer {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.off {
+  display: none;
+}
+
+.game__button-container {
+  display: flex;
+  gap: 10px;
+}

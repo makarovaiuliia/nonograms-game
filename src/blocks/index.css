@@ -1,0 +1,9 @@
+@import url(./global/global.css);
+@import url(./_variables.css);
+@import url(./page/page.css);
+@import url(./header/header.css);
+@import url(./game/game.css);
+@import url(./theme-changer/theme-changer.css);
+@import url(./popup/popup.css);
+@import url(./button/button.css);
+

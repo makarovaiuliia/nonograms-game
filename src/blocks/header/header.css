@@ -1,0 +1,31 @@
+@import url(./_animation/header__animation.css);
+
+.header {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  background-color: var(--complimentary-color);
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.header__title {
+  text-transform: uppercase;
+  font-size: clamp(2rem, -0.4583rem + 10.9259vw, 9.375rem);
+  color: var(--accent-color);
+  transform: translateY(-600px);
+  animation: 1.2s slideIn ease-in-out forwards 1s;
+  z-index: 10;
+  opacity: 0;
+  position: relative;
+}
+
+.header__text {
+  color: var(--accent-color);
+  position: absolute;
+  opacity: 0;
+  inset-inline-start: 70%;
+  inset-block-start: 80%;
+  animation: 1.2s slideIn2 ease-in-out forwards 2.2s;
+}

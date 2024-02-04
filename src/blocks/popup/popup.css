@@ -1,0 +1,12 @@
+@import url(./_is-animated/popup-is-animated.css);
+@import url(./_is-opened/popup-is-opened.css);
+@import url(./__content/popup__content.css);
+
+.popup {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  display: none;
+  justify-content: center;
+}

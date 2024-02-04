@@ -1,0 +1,9 @@
+.page {
+  --secondary-color: #81acff;
+  --complimentary-color: #ffffff;
+  --accent-color: #0029ff;
+  --game-background: #f3f3f3;
+  --game-accent-background: #81acff;
+  --cross: url(../assets/images/crossbig.png);
+  --cross-clue: url(../assets/images/cross-clue-light.png);
+}

@@ -1,0 +1,12 @@
+
+.game__list {
+  display: flex;
+  text-transform: uppercase;
+  gap: 20px;
+  align-items: center;
+}
+
+.game__list-best-results {
+  flex-direction: column;
+  gap: 10px;
+}
